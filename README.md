@@ -1,3 +1,3 @@
-# Basic GIT setup class
+### Shrilc - Batch1 Repository
 
-# Adding a new line here to show commit and push
+Here we keep all our notes, practises we had and projects we worked upon.
