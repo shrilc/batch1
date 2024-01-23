@@ -14,14 +14,14 @@ snake = turtle.Turtle()
 snake.shape('square')
 snake.color('white')
 snake.penup()
-snake.speed(0)
+snake.speed(5)
 
 # Set up the food
 food = turtle.Turtle()
 food.shape('circle')
 food.color('blue')
 food.penup()
-food.speed(0)
+food.speed(5)
 
 # Set snake and food position
 snake.goto(0, 0)
