@@ -5,6 +5,24 @@
     <title>Projects</title>
 </head>
 <body>
-<p> My completed project lists and details. </p>
+<div class="container">
+    <div class="row">
+        {% for card in cards %}
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="{{ card.image }}">
+                    <span class="card-title">{{ card.title }}</span>
+                </div>
+                <div class="card-content">
+                    <p>
+                        {{ card.description }}
+                    </p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 </body>
 </html>
